@@ -1,5 +1,5 @@
 #include <iostream>
-#iclude <string>
+#include <string>
 using namespace std;
 
 class Mahasiswa
