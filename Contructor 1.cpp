@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class mahasiswa
+class Mahasiswa
 {
 public:
     static int nim;
@@ -11,7 +11,7 @@ public:
     void setId();
 
     void printAll();
-    mahasiswa(string pNama) : nama(pNama)
+    Mahasiswa(string pNama) : nama(pNama)
     {
         setId();
     }
@@ -21,13 +21,13 @@ public:
       
 };
 
-int mahasiswa::nim = 20;
-void mahasiswa::setId()
+int Mahasiswa::nim = 20;
+void Mahasiswa::setId()
 {
     Id = nim++;
 }
 
-void mahasiswa::printAll()
+void Mahasiswa::printAll()
 {
     cout << " ID = " << Id << endl;
     cout << " Nama = " << nama << endl;
@@ -36,10 +36,10 @@ void mahasiswa::printAll()
 
 int main()
 {
-    mahasiswa mhs1("Lia Kurnia");
-    mahasiswa mhs2("Asroni");
-    mahasiswa mhs3("Andi Kurniwan");
-    mahasiswa mhs4("Joko Purbo");
+    Mahasiswa mhs1("Lia Kurnia");
+    Mahasiswa mhs2("Asroni");
+    Mahasiswa mhs3("Andi Kurniwan");
+    Mahasiswa mhs4("Joko Purbo");
 
     mhs1.printAll();
     mhs2.printAll();
