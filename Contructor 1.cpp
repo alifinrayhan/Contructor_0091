@@ -21,3 +21,15 @@ public:
       
 };
 
+int mahasiswa::nim = 20;
+void mahasiswa::setId()
+{
+    Id = nim++;
+}
+
+void mahasiswa::printAll()
+{
+    cout << " ID = " << Id << endl;
+    cout << " Nama = " << nama << endl;
+    cout << endl;
+}
