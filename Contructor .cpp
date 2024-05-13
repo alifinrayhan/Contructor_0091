@@ -40,10 +40,10 @@ Mahasiswa::Mahasiswa(int iNim, string iNama)
 
 int main()
 {
-    Mahasiswa mhs1("Alifin Rayhan");
-    Mahasiswa mhs2(" Naufak jail");
-    Mahasiswa mhs3(" Yoga separoh");
-    Mahasiswa mhs4("Dimas yoga ");
+    Mahasiswa mhs1;
+    Mahasiswa mhs2(20);
+    Mahasiswa mhs3("Yoga");
+    Mahasiswa mhs4(30, "Alifin");
 
     mhs1.cetak();
     mhs2.cetak();
